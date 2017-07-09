@@ -2,12 +2,12 @@
 Arduboy Game Changer
 
 Ever wished you could change the game on your Arduboy without going back to your computer? Now you can...
-
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 ## Requirements
 You will need:
 * An Arduboy
 * Any Raspberry Pi (the $5 Zero is recommended for low power consumption)
-* A USB powerbank (for powering the Raspberry Pi)
+* A USB powerbank (for powering the Raspberry Pi when you're in the park)
 * A micro-USB to micro-USB cable (or a micro-USB to USB adaptor and a micro-USB to USB cable plugged together)
 * Some Arduboy games in .hex format
 

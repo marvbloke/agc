@@ -1,5 +1,5 @@
-# agc
-Arduboy Game Changer
+# Arduboy Game Changer
+by __marvbloke__
 
 Ever wished you could change the game on your Arduboy without going back to your computer? Now you can...
 ## Requirements

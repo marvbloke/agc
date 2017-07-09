@@ -38,5 +38,5 @@ sudo python agc.py
 4. In the Arduino IDE, go to the Sketch menu and choose 'Export compiled Binary'. This will create two .hex files
 __IMPORTANT:__ Delete the 'with bootloader' file immediately. Using this file could brick your Arduboy!!!
 5. Rename ```agc.ino.leonardo.hex``` to just ```agc.hex``` and copy this onto your Raspberry Pi in the ```/home/pi/agc``` folder.
-## Setting agc to run when the Raspberry is turned on
-To be completed...
+## Running agc when the Raspberry Pi is switched on
+I've got this working via crontab and a launcher shell script. Instructions to be completed...

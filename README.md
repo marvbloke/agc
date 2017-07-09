@@ -10,7 +10,7 @@ You will need:
 * A micro-USB to micro-USB cable (or a micro-USB to USB adaptor and a micro-USB to USB cable plugged together)
 * Some Arduboy games in .hex format
 ## How does it work?
-The Arduboy Game Changer is a Raspberry Pi Zero with special software on it (_agc.py_) that sends a menu of games (_agc.hex_) to the Arduboy. You select the game on the Arduboy itself, then the Raspberry Pi sends the requested game. Here it is in action:
+The Arduboy Game Changer is a Raspberry Pi Zero with special software on it (_agc.py_) that sends a menu of games (_agc.hex_) to the Arduboy via USB upon power-up. You select the game on the Arduboy itself, then the Raspberry Pi sends the requested game. Here it is in action:
 
 ___Video coming soon___
 

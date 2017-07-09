@@ -12,7 +12,7 @@ You will need:
 * Some Arduboy games in .hex format
 
 ## How does it work?
-The Arduboy Game Changer is a Raspberry Pi Zero with special software on it that sends a menu of games to the Arduboy. You select the game on the Arduboy itself, then the Raspberry Pi sends the requested game. Here it is in action:
+The Arduboy Game Changer is a Raspberry Pi Zero with special software on it (_agc.py_) that sends a menu of games (_agc.hex_) to the Arduboy. You select the game on the Arduboy itself, then the Raspberry Pi sends the requested game. Here it is in action:
 
 
 
@@ -22,3 +22,4 @@ The Arduboy Game Changer is a Raspberry Pi Zero with special software on it that
 ```
 sudo apt-get install avrdude
 ```
+To be completed...

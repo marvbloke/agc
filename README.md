@@ -16,7 +16,7 @@ ___Video coming soon___
 
 ## Getting started
 1. Download the latest Raspbian Jessie Lite image from [here](https://www.raspberrypi.org/downloads/raspbian/) although an existing Jessie image will also work
-2. At the command prompt, enter the following commands to install AVRDUDE (used to upload games to the Arduboy)
+2. At the command prompt, enter the following command to install AVRDUDE (used to upload games to the Arduboy)
 ```
 sudo apt-get install avrdude
 ```
@@ -38,5 +38,5 @@ sudo python agc.py
 4. In the Arduino IDE, go to the Sketch menu and choose 'Export compiled Binary'. This will create two .hex files
 __IMPORTANT:__ Delete the 'with bootloader' file immediately. Using this file could brick your Arduboy!!!
 5. Rename ```agc.ino.leonardo.hex``` to just ```agc.hex``` and copy this onto your Raspberry Pi in the ```/home/pi/agc``` folder.
-## Running agc when the Raspberry Pi is switched on
+## Running agc automatically when the Raspberry Pi is started
 I've got this working via crontab and a launcher shell script. Instructions to be completed...
